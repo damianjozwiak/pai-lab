@@ -1,0 +1,5 @@
+## Podstawy aplikacji internetowych
+# React
+## Laboratorium 10
+
+W tym ćwiczeniu naszym zadaniem było stworzenie prostej listy zadań do wykonania w technologii React. Nasza lista powinna umożliwiać zaznaczenie w widoczny sposób czy zadanie zostało już wykonane, ukrycie wszystkich wykonanych do tej pory zadań, a także dodawanie nowych. W tym celu musiałem podzielić aplikację na kilka komponentów. Największym problem sprawiło mi przekazywanie informacji z komponentów podrzędnych do nadrzędnych, jednak wykorzystanie bardziej rozbudowanych komponentów klasowych zamiast większej ilości prostszych, funkcyjnych, ułatwiło mi to zadanie. W mojej opinii jest to najlepsza i najbardziej użyteczna technologia jaką poznaliśmy na tych zajęciach, a natychmiastowa kompilacja po każdym zapisaniu pliku umożliwa wygodne i szybkie testowanie aplikacji.

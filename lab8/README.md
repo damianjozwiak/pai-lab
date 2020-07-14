@@ -1,2 +1,5 @@
-# RazorPagesMovie
- 
+## Podstawy aplikacji internetowych
+# ASP.NET Web Pages
+## Laboratorium 8
+
+Nie posiadam oraz nie używam systemu Windows oraz, co za tym idzie, środowiska Visual Studio, więc wybrałem alternatywną formę wykonania tego zadania, tj. tutorial ze strony Microsoft. W jego ramach należało utworzyć prostą aplikację z bazą danych z filmami. Bazowa funkcjonalność, tj. tworzenie, usuwanie i edytowanie rekordów listy utworzyła się praktycznie automatycznie. Naszym zadaniem była zmiana sposobu wyświetlania pewnych danych, dodanie funkcji wyszukiwania, a także dodanie nowej kolumny z danymi. Każda podstrona została "rozbita" na dwa odrębne pliki: plik `.cshtml` odpowiedzialny za rozmieszczenie elementów na stronie i klasę `.cs` odpowiedzialną za ich zachowanie. Największy problem sprawiła mi konfiguracja środowiska. Pomimo pobrania i zainstalowania narzędzi `dotnet-ef` i `dotnet-aspnet-codegenerator` globalnie i dopisania ich do zmiennej środowiskowej `PATH` nie mogłem ich używać w projekcie, zadziałało dopiero zainstalowanie ich lokalnie, wewnątrz projektu. Narzędzie to jest w mojej opinii bardzo niewygodne, bardzo często zmiana jednej prostej rzeczy wymagała dokonania zmian w kilku plikach jednocześnie. Przeszkadzały mi także długie czasy kompilacji i uruchamiania się aplikacji po każdej wprowadzonej zmianie.
